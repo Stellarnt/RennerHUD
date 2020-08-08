@@ -1,0 +1,33 @@
+// oh god i dont want to do this oh no //
+
+
+
+// FIX THE FUCKING FLOATING HEALTH !!!!! //
+
+- Every single CTF, Passtime and Robot Destruction notification
+
+- Hudlayout.res and HudAnimations.txt
+
+- The Pip Boy™️ Hud 
+
+- ClassSelection.res
+
+- BaseChat.res
+
+- Engineer building status icons
+
+- EnemyCountPanel.res
+
+- Passtime and MvM FlagStatus.res & HudObjectiveFlagPanel
+
+- FreezePanel_Basic Item Model Panel
+
+- HudMenuTauntSelection.res
+
+- ItemQuickSwitch.res
+
+- MvMInWorldCurrency.res
+
+- TankStatusPanel.res
+
+- Customizations Directories

@@ -1,0 +1,25 @@
+// Loads every animation file required to run the HUD
+
+hudanimations_manifest
+{
+    // Health, Only uncomment one line at once!
+//  "file" "scripts/animations/Health_Boxes.txt"   
+    "file" "scripts/animations/Health_Cross.txt"   
+
+
+    // Ammo, Only uncomment one line at once!
+//	"file" "scripts/animations/Ammo_Boxes.txt"   
+	"file" "scripts/animations/Ammo_Cross.txt"   
+	
+	
+    // Uber, Only uncomment one line at once!
+//	"file" "scripts/animations/Uber_Boxes1.txt"
+//	"file" "scripts/animations/Uber_Boxes2.txt"    	
+	"file" "scripts/animations/Uber_Cross.txt"    	
+	
+	
+    // Base Files, Dont touch please
+	"file" "scripts/HudAnimations_Trial.txt"		
+	"file" "scripts/hudanimations.txt"
+	"file" "scripts/hudanimations_tf.txt"
+}

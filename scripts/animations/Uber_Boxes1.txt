@@ -1,0 +1,37 @@
+//====================================================================================================================
+
+event HudMedicCharged
+{
+	Animate     UberBox							    Alpha           255					     	     Linear    0.0 	 0.3	
+	Animate     UberBox							    BgColor         UberBoxFull					     Linear    0.0 	 0.3	
+	
+	Animate     ChargeMeter 						FgColor 	    UberchargeFull 					 Linear    0.0	 0.3
+	Animate     ChargeMeter1 						FgColor 	    UberchargeFull 					 Linear    0.0	 0.3
+	Animate     ChargeMeter2 						FgColor 	    UberchargeFull 					 Linear    0.0	 0.3
+	Animate     ChargeMeter3 						FgColor 	    UberchargeFull 					 Linear    0.0	 0.3
+	Animate     ChargeMeter4 						FgColor 	    UberchargeFull 					 Linear    0.0	 0.3		
+	
+	RunEvent    HudMedicChargedLoop				    0.0
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent    HudMedicCharged 					0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 						0.0
+	StopEvent HudMedicChargedLoop 					0.0
+	
+	Animate     UberBox							    Alpha           0					             Linear    0.0 	 0.3		
+	Animate     UberBox							    BgColor         UberBox					         Linear    0.0 	 0.3
+
+	Animate	    ChargeMeter 						FgColor		    Ubercharge		 				 Linear    0.0 	 0.3
+	Animate	    ChargeMeter1						FgColor		    Ubercharge		 			     Linear    0.0 	 0.3
+	Animate	    ChargeMeter2 						FgColor		    Ubercharge						 Linear    0.0 	 0.3	
+	Animate	    ChargeMeter3 						FgColor		    Ubercharge						 Linear    0.0 	 0.3	
+	Animate	    ChargeMeter4 						FgColor		    Ubercharge						 Linear    0.0 	 0.3		
+}
+
+//====================================================================================================================

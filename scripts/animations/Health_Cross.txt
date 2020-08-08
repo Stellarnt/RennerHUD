@@ -1,0 +1,61 @@
+//====================================================================================================================
+
+event HudHealthBonusPulse
+{
+	Animate     PlayerStatusHealthBonusImage		Alpha 	        255				     			 Linear    0.0 	 0.3
+	Animate     HealthBox							Alpha 	        0				     			 Linear    0.0 	 0.3
+	Animate     HealthBox							BgColor 	    HealthBoxBuff				     Linear    0.0 	 0.3
+	Animate     HealthBoxID							Alpha 	        255				     			 Linear    0.0 	 0.1
+	Animate     HealthBoxID							BgColor 	    HealthBoxBuff				     Linear    0.0 	 0.1	
+
+	RunEvent    HudHealthBonusPulseLoop			    0.0
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent    HudHealthBonusPulse				    0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent   HudHealthBonusPulse 				0.0
+	StopEvent   HudHealthBonusPulseLoop			    0.0
+
+	Animate     PlayerStatusHealthBonusImage		Alpha 	        0				     			 Linear    0.0 	 0.3
+	Animate     HealthBox						    Alpha 	        0								 Linear    0.0 	 0.3
+	Animate     HealthBox						    BgColor 	    HealthBox						 Linear    0.0 	 0.3
+	Animate     HealthBoxID							Alpha 	        0				     			 Linear    0.0 	 0.1
+	Animate     HealthBoxID							BgColor 	    HealthBox    				     Linear    0.0 	 0.1	
+}
+
+//====================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate     PlayerStatusHealthBonusImage		Alpha 	        255				     			 Linear    0.0 	 0.3
+	Animate     HealthBox							Alpha 	        0								 Linear    0.0 	 0.3
+	Animate     HealthBox							BgColor 	    HealthBoxLow					 Linear    0.0 	 0.3
+	Animate     HealthBoxID							Alpha 	        255								 Linear    0.0 	 0.1
+	Animate     HealthBoxID							BgColor 	    HealthBoxLow					 Linear    0.0 	 0.1	
+
+	RunEvent    HudHealthDyingPulseLoop			    0.0
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent    HudHealthDyingPulse				    0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent   HudHealthDyingPulse				    0.0
+	StopEvent   HudHealthDyingPulseLoop 		    0.0
+
+	Animate     PlayerStatusHealthBonusImage		Alpha 	        0				     			 Linear    0.0 	 0.3
+	Animate     HealthBox						    Alpha 	        0								 Linear    0.0 	 0.3
+	Animate     HealthBox						    BgColor 	    HealthBox						 Linear    0.0 	 0.3
+	Animate     HealthBoxID						    Alpha 	        0								 Linear    0.0 	 0.1
+	Animate     HealthBoxID						    BgColor 	    HealthBox						 Linear    0.0 	 0.1	
+}
+
+//====================================================================================================================

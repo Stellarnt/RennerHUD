@@ -1,0 +1,31 @@
+// Gamemodes //
+
+Payload - 100%
+
+Attack/Defend - 100%
+
+Capture The Flag - 100%
+
+Control Points - 100%
+
+King Of The Hill - 100%
+
+Arena - 100%
+
+Medieval Attack/Defend - 100%
+
+Player Destruction - 100%
+
+Territorial Control - 100%
+
+Mannpower - 100%
+
+Pass Time - 100%
+
+Special Delivery 100%
+
+Mann Vs. Machine - 90%
+
+Robot Destruction - 40%
+
+Tournament - 20%

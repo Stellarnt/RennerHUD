@@ -1,0 +1,83 @@
+//====================================================================================================================
+
+event HudMedicCharged
+{
+	Animate     ChargeLabel 						FgColor 	    UberRainbow1 					 Linear    0.3	 0.3
+	Animate     ChargeLabel 						FgColor 	    UberRainbow2 					 Linear    0.6	 0.3
+	Animate     ChargeLabel 						FgColor 	    UberRainbow3 					 Linear    0.9	 0.3
+	Animate     ChargeLabel 						FgColor 	    UberRainbow4 					 Linear    1.2	 0.3
+	Animate     ChargeLabel 						FgColor 	    UberRainbow5 					 Linear    1.5	 0.3
+	Animate     ChargeLabel 						FgColor 	    UberRainbow6 					 Linear    1.8	 0.3
+	Animate     ChargeLabel 						FgColor 	    UberRainbow7 					 Linear    2.1	 0.3
+	
+	Animate     IndividualChargesLabel 				FgColor 	    UberRainbow1 					 Linear    0.3	 0.3
+	Animate     IndividualChargesLabel 				FgColor 	    UberRainbow2 					 Linear    0.6	 0.3
+	Animate     IndividualChargesLabel 				FgColor 	    UberRainbow3 					 Linear    0.9	 0.3
+	Animate     IndividualChargesLabel 				FgColor 	    UberRainbow4 					 Linear    1.2	 0.3
+	Animate     IndividualChargesLabel 				FgColor 	    UberRainbow5 					 Linear    1.5	 0.3
+	Animate     IndividualChargesLabel 				FgColor 	    UberRainbow6 					 Linear    1.8	 0.3
+	Animate     IndividualChargesLabel 				FgColor 	    UberRainbow7 					 Linear    2.1	 0.3	
+
+	Animate     ChargeMeter 						FgColor 	    UberRainbow1 					 Linear    0.3	 0.3
+	Animate     ChargeMeter 						FgColor 	    UberRainbow2 					 Linear    0.6	 0.3
+	Animate     ChargeMeter 						FgColor 	    UberRainbow3 					 Linear    0.9	 0.3
+	Animate     ChargeMeter 						FgColor 	    UberRainbow4 					 Linear    1.2	 0.3
+	Animate     ChargeMeter 						FgColor 	    UberRainbow5 					 Linear    1.5	 0.3
+	Animate     ChargeMeter 						FgColor 	    UberRainbow6 					 Linear    1.8	 0.3
+	Animate     ChargeMeter 						FgColor 	    UberRainbow7 					 Linear    2.1	 0.3
+	
+	Animate     ChargeMeter1 						FgColor 	    UberRainbow1 					 Linear    0.3	 0.3
+	Animate     ChargeMeter1 						FgColor 	    UberRainbow2 					 Linear    0.6	 0.3
+	Animate     ChargeMeter1 						FgColor 	    UberRainbow3 					 Linear    0.9	 0.3
+	Animate     ChargeMeter1 						FgColor 	    UberRainbow4 					 Linear    1.2	 0.3
+	Animate     ChargeMeter1 						FgColor 	    UberRainbow5 					 Linear    1.5	 0.3
+	Animate     ChargeMeter1 						FgColor 	    UberRainbow6 					 Linear    1.8	 0.3
+	Animate     ChargeMeter1 						FgColor 	    UberRainbow7 					 Linear    2.1	 0.3
+
+	Animate     ChargeMeter2 						FgColor 	    UberRainbow1 					 Linear    0.3	 0.3
+	Animate     ChargeMeter2 						FgColor 	    UberRainbow2 					 Linear    0.6	 0.3
+	Animate     ChargeMeter2 						FgColor 	    UberRainbow3 					 Linear    0.9	 0.3
+	Animate     ChargeMeter2 						FgColor 	    UberRainbow4 					 Linear    1.2	 0.3
+	Animate     ChargeMeter2 						FgColor 	    UberRainbow5 					 Linear    1.5	 0.3
+	Animate     ChargeMeter2 						FgColor 	    UberRainbow6 					 Linear    1.8	 0.3
+	Animate     ChargeMeter2 						FgColor 	    UberRainbow7 					 Linear    2.1	 0.3	
+
+	Animate     ChargeMeter3 						FgColor 	    UberRainbow1 					 Linear    0.3	 0.3
+	Animate     ChargeMeter3 						FgColor 	    UberRainbow2 					 Linear    0.6	 0.3
+	Animate     ChargeMeter3 						FgColor 	    UberRainbow3 					 Linear    0.9	 0.3
+	Animate     ChargeMeter3 						FgColor 	    UberRainbow4 					 Linear    1.2	 0.3
+	Animate     ChargeMeter3 						FgColor 	    UberRainbow5 					 Linear    1.5	 0.3
+	Animate     ChargeMeter3 						FgColor 	    UberRainbow6 					 Linear    1.8	 0.3
+	Animate     ChargeMeter3 						FgColor 	    UberRainbow7 					 Linear    2.1	 0.3	
+
+	Animate     ChargeMeter4 						FgColor 	    UberRainbow1 					 Linear    0.3	 0.3
+	Animate     ChargeMeter4 						FgColor 	    UberRainbow2 					 Linear    0.6	 0.3
+	Animate     ChargeMeter4 						FgColor 	    UberRainbow3 					 Linear    0.9	 0.3
+	Animate     ChargeMeter4 						FgColor 	    UberRainbow4 					 Linear    1.2	 0.3
+	Animate     ChargeMeter4 						FgColor 	    UberRainbow5 					 Linear    1.5	 0.3
+	Animate     ChargeMeter4 						FgColor 	    UberRainbow6 					 Linear    1.8	 0.3
+	Animate     ChargeMeter4 						FgColor 	    UberRainbow7 					 Linear    2.1	 0.3		
+	
+	RunEvent HudMedicChargedLoop					2.3
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 						0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 						0.0
+	StopEvent HudMedicChargedLoop 					0.0
+	
+	Animate	    ChargeLabel 						FgColor		    White						     Linear    0.0 	 0.3
+	Animate	    IndividualChargesLabel 				FgColor		    White					         Linear    0.0 	 0.3
+	Animate	    ChargeMeter 						FgColor		    White					         Linear    0.0 	 0.3
+	Animate	    ChargeMeter1						FgColor		    White						     Linear    0.0 	 0.3
+	Animate	    ChargeMeter2 						FgColor		    White						     Linear    0.0 	 0.3	
+	Animate	    ChargeMeter3 						FgColor		    White						     Linear    0.0 	 0.3	
+	Animate	    ChargeMeter4 						FgColor		    White						     Linear    0.0 	 0.3		
+}
+
+//====================================================================================================================

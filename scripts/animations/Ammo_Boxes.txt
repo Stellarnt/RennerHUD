@@ -1,0 +1,25 @@
+//====================================================================================================================
+
+event HudLowAmmoPulse
+{
+	Animate     AmmoBox							    Alpha           255					             Linear    0.0 	 0.3
+	Animate     AmmoBox							    BgColor         AmmoBoxLow					     Linear    0.0 	 0.3
+	
+	RunEvent    HudLowAmmoPulseLoop			        0.0
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent    HudLowAmmoPulse			    	    0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent   HudLowAmmoPulse				        0.0
+	StopEvent   HudLowAmmoPulseLoop 		    	0.0
+	
+	Animate     AmmoBox							    Alpha 	        0					             Linear    0.0 	 0.3
+	Animate     AmmoBox							    BgColor 	    AmmoBox					         Linear    0.0 	 0.3
+}
+
+//====================================================================================================================
