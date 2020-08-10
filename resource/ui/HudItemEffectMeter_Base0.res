@@ -34,7 +34,7 @@
 		"enabled"									       "1"
 		"font"										       "ClarikaRegular11"
 		"xpos"										       "0"
-		"ypos"										       "0"
+		"ypos"										       "-1"
 		"zpos"										       "1"
 		"wide"										       "120"
 		"tall"										       "10"

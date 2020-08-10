@@ -80,18 +80,18 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"020 020 020 255"
-		"TanLight"				"240 240 240 255"
+		"TanDark"				"018 020 024 255"
+		"TanLight"				"238 240 244 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
 		
 		// Building HUD Specific
-		"LowHealthRed"		"240 080 070 255"
-		"ProgressOffWhite"	"240 240 240 255"
-		"ProgressBackground"	"020 020 025 255"
-		"HealthBgGrey"		"150 150 150 255"
+		"LowHealthRed"		"255 0 0 255"
+		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressBackground"	"250 234 201 51"
+		"HealthBgGrey"		"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		

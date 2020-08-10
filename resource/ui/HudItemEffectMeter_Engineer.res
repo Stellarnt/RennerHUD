@@ -7,11 +7,11 @@
 {
 	"Icon"
 	{
-		"labelText"									       "0"
+		"labelText"									       "B"
 	}
 
 	"IconShadow"
 	{
-		"labelText"									       "0"
+		"labelText"									       "B"
 	}
 }

@@ -2,26 +2,26 @@ Scheme
 {
 	Colors
 	{
-	    "Accent"                                           "180 090 170 255" // Purple
-		"Shadow"								           "020 020 020 255" // Black
+	    "Accent"                                           "050 255 140 255" // Light Green
+		"Shadow"								           "018 020 024 255" // Black
 		"Blank"								               "000 000 000 000" // Transparent	
-		"InGameBackground"                                 "020 020 025 255" // Black		
+		"InGameBackground"                                 "018 020 024 255" // Black		
         
-		"Background"                                       "020 020 025 225"	 	
-        "Background2"                                      "040 040 040 225"		
-        "Background3"                                      "060 060 060 225"	
+		"Background"                                       "018 020 024 225"	 	
+        "Background2"                                      "038 040 044 225"		
+        "Background3"                                      "058 060 064 225"	
 		
-        "BackgroundSolid"                                  "020 020 020 255"		
-        "Background2Solid"                                 "040 040 040 255"		
-        "Background3Solid"                                 "060 060 060 255"		
+        "BackgroundSolid"                                  "018 020 024 255"		
+        "Background2Solid"                                 "038 040 044 255"		
+        "Background3Solid"                                 "058 060 064 255"		
 		
-		"White"									           "240 240 240 255"
+		"White"									           "238 240 244 255"
 		"WhiteSolid"									   "255 255 255 255"
-		"WhiteTransparent"								   "240 240 240 200"
+		"WhiteTransparent"								   "238 240 244 200"
 		
-		"Black"									           "020 020 025 255"
+		"Black"									           "018 020 024 255"
 		"BlackSolid"							           "000 000 000 255"
-		"BlackTransparent"							       "020 020 020 200"
+		"BlackTransparent"							       "018 020 024 200"
 		
 		"Gray"									           "150 150 150 255"
 		"GrayLight"							               "185 185 185 255"		

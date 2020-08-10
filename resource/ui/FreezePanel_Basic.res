@@ -58,7 +58,7 @@
 		    "fgcolor_override"  						       "White"		
 			"visible"									       "1"
 			"enabled"									       "1"			
-			"xpos"										       "45"
+			"xpos"										       "47"
 			"ypos"											   "0"
 			"zpos"											   "1"
 			"wide"											   "150"
