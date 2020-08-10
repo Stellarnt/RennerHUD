@@ -2,7 +2,8 @@ Scheme
 {
 	Colors
 	{
-	    "Accent"                                           "050 255 140 255" // Light Green
+	    "Accent"                                           "250 120 070 255" // Orange
+	    "AccentTransparent"                                "250 120 070 200" // Orange
 		"Shadow"								           "018 020 024 255" // Black
 		"Blank"								               "000 000 000 000" // Transparent	
 		"InGameBackground"                                 "018 020 024 255" // Black		

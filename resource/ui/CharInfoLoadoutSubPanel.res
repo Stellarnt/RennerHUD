@@ -40,7 +40,7 @@
 		"fgcolor_override"                                 "White"
 		"font"			                                   "ClarikaDemi24"
 		"xpos"			                                   "0"
-		"ypos"			                                   "70"
+		"ypos"			                                   "100"
 		"zpos"			                                   "1"
 		"wide"			                                   "f0"
 		"tall"			                                   "30"
@@ -79,7 +79,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout scout"
 	}
@@ -114,7 +114,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout soldier"
 	}
@@ -149,7 +149,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout pyro"
 	}
@@ -184,7 +184,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout demoman"
 	}
@@ -197,7 +197,7 @@
 		"font"										       "ClassIcon58"
 		"default"									       "0"
 		"xpos"										       "c-35"
-		"ypos"										       "c-110"
+		"ypos"										       "c-115"
 		"wide"										       "80"
 		"tall"										       "80"
 		"labelText"									       "5"
@@ -215,7 +215,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout heavy"
 	}
@@ -250,7 +250,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout engineer"
 	}
@@ -285,7 +285,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout medic"
 	}
@@ -320,7 +320,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout sniper"
 	}
@@ -355,7 +355,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"									       "loadout spy"
 	}
@@ -390,7 +390,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"			                               "backpack"
 	}
@@ -425,7 +425,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"			                               "crafting"
 	}
@@ -439,7 +439,7 @@
 		"Default"			                               "0"
 		"font"				                               "Icon46"
 		"xpos"				                               "c-35"
-		"ypos"				                               "c-20"
+		"ypos"				                               "c-25"
 		"zpos"				                               "6"
 		"wide"				                               "80"
 		"tall"				                               "80"
@@ -457,7 +457,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"			                               "armory"
 	}
@@ -492,7 +492,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"			                               "trading"
 	}
@@ -527,7 +527,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"			                               "paintkit_preview"
 	}
@@ -564,7 +564,7 @@
 		"default"									       "0"
 		"font"										       "ClarikaDemi16"
 		"xpos"										       "c-30"
-		"ypos"										       "70"
+		"ypos"										       "50"
 		"zpos"										       "5"
 		"wide"										       "60"
 		"tall"										       "15"
@@ -577,7 +577,7 @@
 
 		"defaultFgColor_override"					       "White"
 		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "Accent"
+		"depressedFgColor_override" 				       "White"
 
 		"Command"							               "show_explanations"
 	}
@@ -648,7 +648,7 @@
 
 			"defaultFgColor_override" 	                   "White"
 			"armedFgColor_override" 	                   "Accent"
-			"depressedFgColor_override"                    "Accent"
+			"depressedFgColor_override"                    "White"
 
 			"command"				                       "close"
 

@@ -231,8 +231,8 @@
 
 		"defaultFgColor_override" 	                       "White"
 		"armedFgColor_override"		                       "Accent"
-		"depressedFgColor_override"                        "Accent"
-		"selectedFgColor_override"                         "Accent"
+		"depressedFgColor_override"                        "White"
+		"selectedFgColor_override"                         "White"
 
 		"border"                                           "NoBorder"
 		"border_default"			                       "NoBorder"
@@ -274,8 +274,8 @@
 
 		"defaultFgColor_override" 	                       "White"
 		"armedFgColor_override"		                       "Accent"
-		"depressedFgColor_override"                        "Accent"
-		"selectedFgColor_override"                         "Accent"
+		"depressedFgColor_override"                        "White"
+		"selectedFgColor_override"                         "White"
 
 		"border"                                           "NoBorder"
 		"border_default"			                       "NoBorder"
@@ -315,8 +315,8 @@
 
 		"defaultFgColor_override" 	                       "White"
 		"armedFgColor_override"		                       "Accent"
-		"depressedFgColor_override"                        "Accent"
-		"selectedFgColor_override"                         "Accent"
+		"depressedFgColor_override"                        "White"
+		"selectedFgColor_override"                         "White"
 
 		"defaultBgColor_override" 	                       "Blank"
 		"armedBgColor_override"		                       "Blank"

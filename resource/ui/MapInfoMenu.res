@@ -81,7 +81,7 @@
 		"xpos"				                               "0"
 		"ypos"				                               "50"
 		"zpos"				                               "1"
-		"wide"				                               "200"
+		"wide"				                               "250"
 		"tall"				                               "700"
 		"textAlignment"		                               "center"
 		"pin_to_sibling" 					               "MapInfoType"
@@ -109,8 +109,8 @@
 
 		"defaultFgColor_override" 	                       "White"
 		"armedFgColor_override"		                       "Accent"
-		"depressedFgColor_override"                        "Accent"
-		"selectedFgColor_override"                         "Accent"
+		"depressedFgColor_override"                        "White"
+		"selectedFgColor_override"                         "White"
 
 		"defaultBgColor_override" 	                       "Blank"
 		"armedBgColor_override"		                       "Blank"
