@@ -48,6 +48,27 @@
 		"textAlignment"	                                   "center"
 	}
 
+    // Server Rules, Map Rotation etc
+	"HTMLMessage"
+	{
+		"ControlName"		                               "HTML"
+		"fieldName"			                               "HTMLMessage"
+		"visible"			                               "1"
+		"enabled"			                               "1"
+		"font"				                               "ClarikaMedium20"
+		"fgcolor"			                               "White"
+		"xpos"				                               "0"
+		"ypos"				                               "50"
+		"zpos"				                               "1"
+		"wide"				                               "700"
+		"tall"				                               "20"
+		"pin_to_sibling" 					               "TFMessageTitle"
+		"pin_corner_to_sibling" 			               "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			               "PIN_CENTER_BOTTOM"
+		"paintborder"                                      "0"
+		"paintbackground"                                  "0"
+	}
+	
     // idk
 	"TFTextMessage"
 	{
@@ -70,26 +91,6 @@
 		"paintbackground"                                  "0"
 	}
 
-    // Server Rules, Map Rotation etc
-	"HTMLMessage"
-	{
-		"ControlName"		                               "HTML"
-		"fieldName"			                               "HTMLMessage"
-		"visible"			                               "1"
-		"enabled"			                               "1"
-		"font"				                               "ClarikaMedium20"
-		"fgcolor"			                               "White"
-		"xpos"				                               "0"
-		"ypos"				                               "0"
-		"zpos"				                               "1"
-		"wide"				                               "700"
-		"tall"				                               "20"
-		"pin_to_sibling" 					               "TFMessageTitle"
-		"pin_corner_to_sibling" 			               "PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			               "PIN_BOTTOMLEFT"
-		"paintborder"                                      "0"
-		"paintbackground"                                  "0"
-	}
 
 	// Press "E" To Continue Label
 	"ok"
