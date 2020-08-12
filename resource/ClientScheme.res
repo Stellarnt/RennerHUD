@@ -11,14 +11,10 @@
 
 ///////////////////FONTS///////////////////
 
-//#base "../resource/scheme/fonts/ClarikaLight.res"
 #base "../resource/scheme/fonts/ClarikaRegular.res"
 #base "../resource/scheme/fonts/ClarikaMedium.res"
 #base "../resource/scheme/fonts/ClarikaDemi.res"
-//#base "../resource/scheme/fonts/ClarikaBold.res"
-#base "../resource/scheme/fonts/Skulls.res"
-#base "../resource/scheme/fonts/Entypo.res"
-#base "../resource/scheme/fonts/Paula.res"
+#base "../resource/scheme/fonts/Icons.res"
 #base "../resource/scheme/fonts/ClassIcons.res"
 #base "../resource/scheme/fonts/Base_Fonts.res"
 

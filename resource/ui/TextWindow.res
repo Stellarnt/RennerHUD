@@ -49,6 +49,28 @@
 	}
 
     // Server Rules, Map Rotation etc
+	"TFTextMessage"
+	{
+		"ControlName"		                               "CExRichText"
+		"fieldName"			                               "TFTextMessage"
+		"visible"			                               "1"
+		"enabled"			                               "1"
+		"font"				                               "ClarikaMedium14"
+		"fgcolor"			                               "White"		
+		"xpos"				                               "0"
+		"ypos"				                               "25"
+		"zpos"				                               "1"
+		"wide"				                               "400"
+		"tall"				                               "350"
+		"textAlignment"		                               "center"
+		"pin_to_sibling" 					               "TFMessageTitle"
+		"pin_corner_to_sibling" 			               "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			               "PIN_CENTER_BOTTOM"
+		"paintborder"                                      "0"
+		"paintbackground"                                  "0"
+	}
+	
+    // Server Rules, Map Rotation etc
 	"HTMLMessage"
 	{
 		"ControlName"		                               "HTML"
@@ -58,38 +80,17 @@
 		"font"				                               "ClarikaMedium20"
 		"fgcolor"			                               "White"
 		"xpos"				                               "0"
-		"ypos"				                               "50"
+		"ypos"				                               "0"
 		"zpos"				                               "1"
-		"wide"				                               "700"
-		"tall"				                               "20"
+		"wide"				                               "400"
+		"tall"				                               "300"
 		"pin_to_sibling" 					               "TFMessageTitle"
 		"pin_corner_to_sibling" 			               "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			               "PIN_CENTER_BOTTOM"
 		"paintborder"                                      "0"
 		"paintbackground"                                  "0"
 	}
-	
-    // idk
-	"TFTextMessage"
-	{
-		"ControlName"		                               "CExRichText"
-		"fieldName"			                               "TFTextMessage"
-		"xpos"				                               "0"
-		"ypos"				                               "50"
-		"zpos"				                               "1"
-		"wide"				                               "400"
-		"tall"				                               "700"
-		"visible"			                               "1"
-		"enabled"			                               "1"
-		"font"				                               "ClarikaMedium14"
-		"fgcolor"			                               "White"
-		"textAlignment"		                               "center"
-		"pin_to_sibling" 					               "HTMLMessage"
-		"pin_corner_to_sibling" 			               "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			               "PIN_CENTER_BOTTOM"
-		"paintborder"                                      "0"
-		"paintbackground"                                  "0"
-	}
+
 
 
 	// Press "E" To Continue Label
