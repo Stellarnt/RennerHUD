@@ -1,98 +1,103 @@
+// Engineer's Construction PDA Already Build Icons and Info //
+
 "Resource/UI/build_menu/base_already_built.res"
 {
-	"ItemBackground"	
+    // Building Background
+	"ItemBackground"
 	{
 		"ControlName"	                                   "EditablePanel"
 		"fieldName"		                                   "ItemBackground"
 		"visible"		                                   "1"
-		"enabled"		                                   "1"		
-		"xpos"			                                   "12"
-		"ypos"			                                   "104"
+		"enabled"		                                   "1"
+		"xpos"			                                   "10"
+		"ypos"			                                   "15"
 		"zpos"			                                   "0"
-		"wide"			                                   "40"
-		"tall"			                                   "40"
-		"bgcolor_override"                                 "Black"	
+		"wide"			                                   "48"
+		"tall"			                                   "48"
+		"bgcolor_override"                                 "Background2"
 	}
 
+    // Why you can't build the building
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"	                                   "CExLabel"
 		"fieldName"		                                   "CantBuildReason"
 		"visible"		                                   "1"
-		"enabled"		                                   "1"		
-		"font"			                                   "Entypo24"
-		"fgcolor_override"	                               "GreenLight"	
+		"enabled"		                                   "1"
+		"font"			                                   "Icon28"
+		"fgcolor_override"	                               "GreenLight"
 		"xpos"			                                   "0"
 		"ypos"			                                   "0"
 		"zpos"			                                   "2"
-		"wide"			                                   "40"
-		"tall"			                                   "40"
-		"labelText"		                                   "a"
+		"wide"			                                   "48"
+		"tall"			                                   "48"
+		"labelText"		                                   "D"
 		"textAlignment"	                                   "center"
 		"pin_to_sibling"                                   "ItemBackground"
 		"pin_corner_to_sibling"                            "PIN_TOP_CENTER"
 		"pin_to_sibling_corner"                            "PIN_TOP_CENTER"
 	}
-	
-	"NumberBg"	
+
+	// Building Number Background, Building Number
+	"NumberBg"
 	{
 		"ControlName"	                                   "EditablePanel"
 		"fieldName"		                                   "NumberBg"
 		"visible"		                                   "1"
 		"enabled"		                                   "1"
-		"bgcolor_override"			                       "Black"		
-		"xpos"			                                   "3"
-		"ypos"			                                   "3"
+		"bgcolor_override"			                       "Black"
+		"xpos"			                                   "5"
+		"ypos"			                                   "5"
 		"zpos"			                                   "4"
-		"wide"			                                   "15"
-		"tall"			                                   "15"
+		"wide"			                                   "18"
+		"tall"			                                   "18"
 		"pin_to_sibling"                                   "ItemBackground"
 		"pin_corner_to_sibling"                            "PIN_TOPRIGHT"
-		"pin_to_sibling_corner"                            "PIN_TOPRIGHT"			
-	}	
+		"pin_to_sibling_corner"                            "PIN_TOPRIGHT"
+	}
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	                                   "CExLabel"
 		"fieldName"		                                   "NumberLabel"
 		"visible"		                                   "1"
-		"enabled"		                                   "1"		
-		"font"			                                   "ClarikaMedium12"
+		"enabled"		                                   "1"
+		"font"			                                   "ClarikaMedium14"
 		"fgcolor"		                                   "White"
 		"xpos"			                                   "0"
 		"ypos"			                                   "0"
 		"zpos"			                                   "5"
-		"wide"			                                   "15"
-		"tall"			                                   "15"
+		"wide"			                                   "18"
+		"tall"			                                   "18"
 		"labelText"		                                   "1"
 		"textAlignment"	                                   "Center"
 		"pin_to_sibling"                                   "NumberBg"
 		"pin_corner_to_sibling"                            "PIN_TOPRIGHT"
-		"pin_to_sibling_corner"                            "PIN_TOPRIGHT"	
+		"pin_to_sibling_corner"                            "PIN_TOPRIGHT"
 	}
-	
-	
+
+	// Removed Stuff
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	                                   "CExLabel"
 		"fieldName"		                                   "ItemNameLabel"
 		"xpos"			                                   "9999"
-	}	
-	"MetalIcon"	
+	}
+	"MetalIcon"
 	{
 		"ControlName"	                                   "CIconPanel"
 		"fieldName"		                                   "MetalIcon"
 		"xpos"			                                   "9999"
 	}
 	"CostLabel"
-	{	
+	{
 		"ControlName"	                                   "CExLabel"
 		"fieldName"		                                   "CostLabel"
 		"xpos"		                                       "9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"	                                   "CExLabel"
 		"fieldName"		                                   "ModeLabel"
 		"xpos"			                                   "9999"
-	}	
+	}
 }

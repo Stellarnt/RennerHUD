@@ -310,7 +310,7 @@
 		"visible"		                                   "1"
 		"enabled"		                                   "1"
 		"fgcolor_override"                                 "White"
-		"font"			                                   "ClarikaDemi24"
+		"font"			                                   "ClarikaDemi20"
 		"xpos"			                                   "10"
 		"ypos"			                                   "0"
 		"zpos"			                                   "20"

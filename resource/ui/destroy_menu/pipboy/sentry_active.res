@@ -4,7 +4,7 @@
 {
 	"BuildingIcon"	
 	{
-		"icon"			                                   "obj_status_sentrygun_1"
+		"icon"			                                   "obj_status_sentrygun_3"
 	}
 	
 	"NumberLabel"

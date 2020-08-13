@@ -24,7 +24,7 @@
 		"fieldName"		                                   "CantBuildReason"
 		"visible"		                                   "1"
 		"enabled"		                                   "1"
-		"font"			                                   "Icon28"
+		"font"			                                   "Icon36"
 		"fgcolor_override"	                               "Red"
 		"xpos"			                                   "0"
 		"ypos"			                                   "0"
