@@ -22,4 +22,8 @@
 //////////////////BORDERS//////////////////
 
 #base "../resource/scheme/borders/Borders.res"
+#base "../resource/scheme/borders/Quality_Borders.res"
+#base "../resource/scheme/borders/Other_Borders.res"
+#base "../resource/scheme/borders/Backgrounds.res"
 #base "../resource/scheme/borders/Base_Borders.res"
+

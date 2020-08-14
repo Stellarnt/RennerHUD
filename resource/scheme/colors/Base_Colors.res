@@ -212,7 +212,7 @@ Scheme
 		Econ.Button.BgColor									"Background2Solid"
 		Econ.Button.ArmedBgColor							"AccentTransparent"
 		Econ.Button.DepressedBgColor						"AccentTransparent"
-		Econ.Button.PresetDefaultColorBg					"AccentTransparent"
+		Econ.Button.PresetDefaultColorBg					"Accent"
 		Econ.Button.PresetArmedColorBg						"AccentTransparent"
 		Econ.Button.PresetDepressedColorBg					"AccentTransparent"
 		
@@ -229,21 +229,35 @@ Scheme
 		Button.SelectedBgColor			                    "Accent"
 		Button.DepressedBgColor			                    "AccentTransparent"
 
-		CheckButton.TextColor			                    "Yellow"
-		CheckButton.SelectedTextColor	                    "Yellow"
-		CheckButton.BgColor				                    "TransparentBlack"
-		CheckButton.Border1  			                    "Yellow"
-		CheckButton.Border2  			                    "Yellow"
-		CheckButton.Check				                    "Yellow"
-		CheckButton.HighlightFgColor	                    "Yellow"
+		ScrollBarButton.FgColor				                "White"
+		ScrollBarButton.BgColor				                "Blank"
+		ScrollBarButton.ArmedFgColor		                "Accent"
+		ScrollBarButton.ArmedBgColor		                "Blank"
+		ScrollBarButton.DepressedFgColor	                "AccentTransparent"
+		ScrollBarButton.DepressedBgColor	                "Blank"
+
+		ScrollBarSlider.FgColor				                "White"
+		ScrollBarSlider.BgColor				                "Blank"
 		
-		ComboBoxButton.ArrowColor		                    "TanLight"
-		ComboBoxButton.ArmedArrowColor	                    "TanLight"
+		CheckButton.TextColor			                    "White"
+		CheckButton.SelectedTextColor	                    "White"
+		CheckButton.BgColor				                    "Blank"
+		CheckButton.Border1  			                    "Blank"
+		CheckButton.Border2  			                    "Blank"
+		CheckButton.Check				                    "White"
+		CheckButton.HighlightFgColor	                    "White"
+		
+		ComboBoxButton.ArrowColor		                    "White"
+		ComboBoxButton.ArmedArrowColor	                    "Accent"
 		ComboBoxButton.BgColor			                    "Blank"
 		ComboBoxButton.DisabledBgColor	                    "Blank"
 
-
-
+		Slider.NobColor					                    "White"
+		Slider.TextColor				                    "White"
+		Slider.TrackColor				                    "White"
+		Slider.DisabledTextColor1		                    "White"
+		Slider.DisabledTextColor2		                    "White"
+		
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
 		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
@@ -319,16 +333,6 @@ Scheme
 		RichText.SelectedTextColor		"Gray"
 		RichText.SelectedBgColor		"Red"
 
-		ScrollBarButton.FgColor				"Gray"
-		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"Gray"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"Black"
-		ScrollBarButton.DepressedBgColor	"Blank"
-
-		ScrollBarSlider.FgColor				"Gray"		// nob color
-		ScrollBarSlider.BgColor				"Blank"		// slider background color
-
 		SectionedListPanel.HeaderTextColor	"Orange"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
@@ -340,18 +344,12 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
-
 		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
 		TextEntry.CursorColor		"Gray"
 		TextEntry.DisabledTextColor	"Gray"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"TanLight"
+		TextEntry.SelectedTextColor	"Accent"
 		TextEntry.SelectedBgColor	"Gray"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"

@@ -303,7 +303,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Blue"
+			"color"					"White"
 			
 			"image"					"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"		"32"
@@ -315,7 +315,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Blue"
+			"color"					"Blank"
 			
 			"image"					"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"		"32"

@@ -292,31 +292,6 @@ Scheme
 			"draw_corner_height" 	                       "8"
 		}
 
-		ArmoryScrollbarBox
-		{
-			"bordertype"			                       "scalable_image"
-			"backgroundtype"		                       "2"
-			"color"					                       "Background2Solid"
-
-			"image"					                       "replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"		                       "32"
-			"src_corner_width"		                       "32"
-			"draw_corner_width"		                       "8"
-			"draw_corner_height" 	                       "8"
-		}
-		ArmoryScrollbarWell
-		{
-			"bordertype"			                       "scalable_image"
-			"backgroundtype"		                       "2"
-			"color"					                       "Background2Solid"
-
-			"image"					                       "replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"		                       "32"
-			"src_corner_width"		                       "32"
-			"draw_corner_width"		                       "8"
-			"draw_corner_height" 	                       "8"
-		}
-
 		ReplayFatLineBorderOpaque
 		{
 			"bordertype"			                       "scalable_image"

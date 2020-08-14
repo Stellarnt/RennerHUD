@@ -78,8 +78,8 @@
 			"wide"				                           "16"
 			"tall"				                           "16"
 			"labelText"			                           "+"
-			"textinsety"			                       "-12"
-			"textinsetx"			                       "-12"
+			"textinsety"			                       "-5"
+			"textinsetx"			                       "-5"
 			"textAlignment"		                           "center"
 			"paintbackground"	                           "1"
 
