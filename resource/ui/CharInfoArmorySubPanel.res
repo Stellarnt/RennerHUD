@@ -16,8 +16,8 @@
 		"PaintBackgroundType"	                           "0"
 
 		"thumbnail_bgcolor"			                       "Background2Solid"
-		"thumbnail_bgcolor_mouseover"                      "Background2Solid"
-		"thumbnail_bgcolor_selected"	                   "Background2Solid"
+		"thumbnail_bgcolor_mouseover"                      "AccentTransparent"
+		"thumbnail_bgcolor_selected"	                   "Accent"
 
 		"thumbnails_rows"		                           "2"
 		"thumbnails_columns"	                           "8"

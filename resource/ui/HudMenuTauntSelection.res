@@ -38,7 +38,7 @@
 		"paintborder"								           "1"
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
@@ -110,7 +110,7 @@
 		"paintborder"								           "1"
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
@@ -182,7 +182,7 @@
 		"paintborder"								           "1"
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
@@ -252,7 +252,7 @@
 		"paintborder"								           "1"
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
@@ -325,7 +325,7 @@
 
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
@@ -397,7 +397,7 @@
 		"paintborder"								           "1"
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
@@ -469,7 +469,7 @@
 		"paintborder"								           "1"
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
@@ -541,7 +541,7 @@
 		"paintborder"								           "1"
 
 		"model_ypos"								           "4"
-		"model_tall"								           "38"
+		"model_tall"								           "50"
 		"text_ypos"									           "46"
 		"text_center"								           "1"
 		"text_forcesize"							           "3"
