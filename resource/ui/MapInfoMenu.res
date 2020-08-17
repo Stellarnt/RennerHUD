@@ -43,7 +43,7 @@
 		"ypos"			                                   "35"
 		"zpos"			                                   "1"
 		"wide"			                                   "700"
-		"tall"			                                   "40"
+		"tall"			                                   "80"
 		"labelText"		                                   "%mapname%"
 		"textAlignment"	                                   "center"
 	}
@@ -58,7 +58,7 @@
 		"font"				                               "ClarikaMedium20"
 		"fgcolor"			                               "White"
 		"xpos"				                               "0"
-		"ypos"				                               "0"
+		"ypos"				                               "-16"
 		"zpos"				                               "1"
 		"wide"				                               "700"
 		"tall"				                               "20"

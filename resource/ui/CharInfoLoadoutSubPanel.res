@@ -44,7 +44,7 @@
 		"zpos"			                                   "1"
 		"wide"			                                   "f0"
 		"tall"			                                   "30"
-		"labelText"		                                   "Select A Class To Modify Loadout"
+		"labelText"		                                   "#SelectClassLoadout"
 		"textAlignment"                                    "center"
 	}
 

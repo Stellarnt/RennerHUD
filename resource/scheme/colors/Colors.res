@@ -2,8 +2,8 @@ Scheme
 {
 	Colors
 	{
-	    "Accent"                                           "250 120 070 255" // Orange
-	    "AccentTransparent"                                "250 120 070 155" // Orange
+	    "Accent"                                           "000 190 210 255" // Dark Washed Azure
+	    "AccentTransparent"                                "000 190 210 155" // Dark Washed Azure
 		"Shadow"								           "018 020 024 255" // Black
 		"Blank"								               "000 000 000 000" // Transparent	
 		"InGameBackground"                                 "018 020 024 255" // Black		
@@ -15,6 +15,9 @@ Scheme
         "BackgroundSolid"                                  "018 020 024 255"		
         "Background2Solid"                                 "038 040 044 255"		
         "Background3Solid"                                 "058 060 064 255"		
+		
+		"ShounicBlue"                                      "000 190 210 255"
+		"ShounicRed"                                       "240 100 150 255"
 		
 		"White"									           "238 240 244 255"
 		"WhiteSolid"									   "255 255 255 255"

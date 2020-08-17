@@ -188,18 +188,7 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
 		}
-		MainMenuButtonDefault
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Blue"
-			
-			"image"					"replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}
+
 		MainMenuButtonArmed
 		{
 			"bordertype"			"scalable_image"
@@ -212,35 +201,12 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
 		}
-		MainMenuButtonDisabled
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Blue"
-			
-			"image"					"replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}
-		MainMenuMiniButtonDefault
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Blue"
-			
-			"image"					"replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}
+
 		MainMenuMiniButtonArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Orange"
+			"color"					"Accent"
 			
 			"image"					"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"		"32"
@@ -265,7 +231,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Blue"
+			"color"					"Accent"
 			
 			"image"					"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"		"32"
