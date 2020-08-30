@@ -97,10 +97,10 @@ Scheme
 			"color"					                       "Background2Solid"
 
 			"image"					                       "replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"		                       "32"
-			"src_corner_width"		                       "32"
-			"draw_corner_width"		                       "8"
-			"draw_corner_height" 	                       "8"
+			"src_corner_height"		                       "23"
+			"src_corner_width"		                       "23"
+			"draw_corner_width"		                       "5"
+			"draw_corner_height" 	                       "5"
 		}
 
 		TFFatLineBorderClearBG
@@ -110,10 +110,10 @@ Scheme
 			"color"					                       "Background2Solid"
 
 			"image"					                       "replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"		                       "32"
-			"src_corner_width"		                       "32"
-			"draw_corner_width"		                       "8"
-			"draw_corner_height" 	                       "8"
+			"src_corner_height"		                       "23"
+			"src_corner_width"		                       "23"
+			"draw_corner_width"		                       "5"
+			"draw_corner_height" 	                       "5"
 		}
 
 		ToolTipBorder

@@ -9,7 +9,7 @@
 		"fieldName"									       "RedScoreBackground2"
 		"visible"									       "1"
 		"enabled"									       "1"
-		"bgcolor_override"								   "RedDark"
+		"bgcolor_override"								   "RedLight"
 		"xpos"										       "0"
 		"ypos"										       "0"
 		"zpos"										       "4"

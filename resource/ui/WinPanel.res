@@ -1,5 +1,3 @@
-// Win Panel //
-
 "Resource/UI/winpanel.res"
 {
 	"TeamScoresPanel"
@@ -10,8 +8,7 @@
 		"xpos"				                               "0"
 		"ypos"				                               "0"
 		"wide"				                               "f0"
-		"tall"				                               "480"
-
+		"tall"				                               "f0"
 
 		"BlueLabelBG"
 		{

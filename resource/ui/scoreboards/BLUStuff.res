@@ -7,7 +7,7 @@
 	{
 		"ControlName"								       "EditablePanel"
 		"fieldName"									       "BlueScoreBackground2"
-		"bgcolor_override"								   "BlueDark"
+		"bgcolor_override"								   "BlueLight"
 		"visible"									       "1"
 		"enabled"									       "1"
 		"xpos"										       "0"

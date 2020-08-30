@@ -15,7 +15,7 @@
 	{
 		"ControlName"								       "CExLabel"
 		"fieldName"									       "ChargeLabel"
-		"xpos"										       "0"
+		"xpos"										       "9999"
 	}
 
  	// Vaccinator ubercharge value
@@ -23,6 +23,6 @@
 	{
 		"ControlName"				                       "CExLabel"
 		"fieldName"					                       "IndividualChargesLabel"
-		"xpos"										       "0"
+		"xpos"										       "9999"
 	}
 }

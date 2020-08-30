@@ -1,0 +1,392 @@
+"Resource/UI/ItemSelectionPanel.res"
+{
+	"ItemSelectionPanel"
+	{
+		"ControlName"	                                   "EditablePanel"
+		"fieldName"		                                   "ItemSelectionPanel"
+		"visible"		                                   "1"
+		"enabled"		                                   "1"
+		"bgcolor_override"	                               "BackgroundSolid"		
+		"xpos"			                                   "0"
+		"ypos"			                                   "0"
+		"zpos"			                                   "500"
+		"wide"			                                   "f0"
+		"tall"			                                   "f0"
+		
+		"item_ypos"		                                   "60"
+		"item_ydelta"	                                   "100"
+		"item_backpack_offcenter_x"		                   "-288"
+		"item_backpack_xdelta"			                   "4"
+		"item_backpack_ydelta"			                   "3"
+
+		"modelpanels_selection_kv"
+		{
+			"wide"				                           "94"
+			"tall"				                           "70"
+			"model_xpos"		                           "2"
+			"model_wide"		                           "75"
+			"model_tall"		                           "50"
+			"model_center_x"	                           "1"
+			"text_ypos"			                           "0"
+			"text_forcesize"	                           "2"
+			"text_center"		                           "0"
+			"text_yoffset"		                           "2"
+			"inset_eq_y"		                           "55"
+
+			"deferred_description"	                       "1"
+			"deferred_icon"			                       "1"
+		}
+		"modelpanels_kv"
+		{
+			"ControlName"			                       "CItemModelPanel"
+			"visible"				                       "0"
+			"bgcolor_override"		                       "Blank"
+			"noitem_textcolor"		                       "Gray"			
+			"xpos"					                       "c-70"
+			"ypos"					                       "270"
+			"wide"					                       "54"
+			"tall"					                       "42"
+			"PaintBackgroundType"	                       "2"
+			"paintborder"	                               "1"
+			
+			"model_xpos"			                       "2"
+			"model_ypos"			                       "5" 
+			"model_wide"			                       "50"
+			"model_tall"			                       "35"
+			"text_ypos"				                       "60"
+			"text_center"			                       "1"
+			"name_only"				                       "1"
+			
+			"inset_eq_x"			                       "4"
+			"inset_eq_y"			                       "2"
+
+			"deferred_description"	                       "1"
+			"use_item_sounds"		                       "1"
+			
+			"itemmodelpanel"
+			{
+				"use_item_rendertarget"                    "0"
+				"inventory_image_type"	                   "1"
+				"allow_rot"				                   "0"
+			}
+		}
+		
+		"duplicatelabels_kv"
+		{
+			"enabled"				                       "1"
+			"fgcolor"				                       "White"		
+			"font"					                       "ClarikaDemi12"
+			"wide"					                       "20"
+			"tall"					                       "15"
+			"zpos"					                       "1"
+			"textAlignment"			                       "center"
+		}
+	}
+
+	"ClassLabel"
+	{
+		"ControlName"		                               "CExLabel"
+		"fieldName"			                               "ClassLabel"
+		"font"				                               "ClarikaDemi25"
+		"visible"			                               "1"
+		"enabled"			                               "1"
+		"xpos"				                               "5"
+		"ypos"				                               "-7"
+		"zpos"				                               "1"
+		"wide"				                               "560"
+		"tall"				                               "25"
+		"labelText"			                               "#ClassBeingEquipped"
+		"textAlignment"		                               "west"
+		"allcaps"                                          "1"
+	}
+	"ItemSlotLabel"
+	{
+		"ControlName"		                               "CExLabel"
+		"fieldName"			                               "ItemSlotLabel"
+		"font"				                               "ClarikaDemi25"
+		"visible"			                               "1"
+		"enabled"			                               "1"
+		"xpos"				                               "-8"
+		"ypos"				                               "15"
+		"zpos"				                               "1"
+		"wide"				                               "560"
+		"tall"				                               "25"
+		"labelText"			                               "#PrimaryWeapon"
+		"textAlignment"		                               "west"
+		"allcaps"                                          "1"
+	}
+
+	"NameFilterLabel"
+	{
+		"ControlName"				                       "CExLabel"
+		"fieldName"					                       "NameFilterLabel"
+		"visible"			                               "1"
+		"enabled"			                               "1"				
+		"fgcolor_override"	                               "White"
+		"font"				                               "ClarikaMedium12"		
+		"xpos"				                               "0"
+		"ypos"				                               "0"
+		"zpos"				                               "2"
+		"wide"				                               "150"
+		"tall"				                               "15"
+		"labelText"                                        "Search"
+		"textAlignment"		                               "east"		
+		"pin_to_sibling"                                   "NameFilterTextEntry"
+		"pin_corner_to_sibling"                            "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"                            "PIN_TOPLEFT"			
+	}
+	"NameFilterTextEntry"
+	{
+		"ControlName"		                               "TextEntry"
+		"fieldName"			                               "NameFilterTextEntry"
+		"visible"			                               "1"
+		"enabled"			                               "1"				
+		"fgcolor_override"	                               "White"
+		"bgcolor_override"	                               "Background2Solid"
+		"font"				                               "ClarikaRegular11"		
+		"xpos"				                               "c145"
+		"ypos"				                               "37"
+		"zpos"				                               "2"
+		"wide"				                               "150"
+		"tall"				                               "15"
+		"labelText"                                        "Search"
+		"textAlignment"		                               "east"			
+		"paintbackgroundtype"                              "2"
+		"textHidden"		                               "0"
+		"editable"			                               "1"
+		"unicode"			                               "1"
+	}
+	"OnlyAllowUniqueQuality"
+	{
+		"ControlName"				                       "EditablePanel"
+		"fieldName"					                       "OnlyAllowUniqueQuality"
+		"visible"					                       "1"
+		"enabled"					                       "1"		
+		"bgcolor_override"			                       "Background2Solid"
+		"xpos"				                               "10"
+		"ypos"				                               "0"
+		"zpos"				                               "2"
+		"wide"				                               "175"
+		"tall"				                               "15"
+		"pin_to_sibling"                                   "NameFilterTextEntry"
+		"pin_corner_to_sibling"                            "PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"                            "PIN_CENTER_LEFT"			
+	}		
+	"OnlyAllowUniqueQuality2"
+	{
+		"ControlName"				                       "CheckButton"
+		"fieldName"					                       "OnlyAllowUniqueQuality2"
+		"visible"					                       "1"
+		"enabled"					                       "1"		
+		"Font"						                       "ClarikaRegular11"
+		"bgcolor_override"			                       "Background2Solid"
+		"fillcolor"			                               "Background2Solid"
+		"xpos"				                               "10"
+		"ypos"				                               "0"
+		"zpos"				                               "20"
+		"wide"				                               "175"
+		"tall"				                               "15"
+		"labelText"					                       "#OnlyAllowUniqueQuality"		
+		"textAlignment"				                       "east"
+		"textInsetx"				                       "20"
+		"pin_to_sibling"                                   "NameFilterTextEntry"
+		"pin_corner_to_sibling"                            "PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"                            "PIN_CENTER_LEFT"			
+	}
+	"ShowSelection"
+	{
+		"ControlName"		                               "CExButton"
+		"fieldName"			                               "ShowSelection"
+		"visible"			                               "1"
+		"enabled"			                               "1"		
+		"font"				                               "ClarikaRegular11"		
+		"xpos"				                               "10"
+		"ypos"				                               "0"
+		"zpos"				                               "20"
+		"wide"				                               "90"
+		"tall"				                               "15"
+		"labelText"			                               "View Valid Items"
+		"textAlignment"		                               "center"
+		"textinsetx"		                               "30"
+		"pin_to_sibling"                                   "OnlyAllowUniqueQuality"
+		"pin_corner_to_sibling"                            "PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"                            "PIN_CENTER_LEFT"		
+
+        "defaultBgcolor_override"                          "Background2Solid"
+        "armedBgcolor_override"                            "Accent"
+		
+		"sound_depressed"	                               "UI/buttonclick.wav"
+		"sound_released"	                               "UI/buttonclickrelease.wav"
+
+		"Command"			                               "show_selection"		
+	}			
+	"ShowBackpack"
+	{
+		"ControlName"		                               "CExButton"
+		"fieldName"			                               "ShowBackpack"
+		"visible"			                               "1"
+		"enabled"			                               "1"		
+		"font"				                               "ClarikaRegular11"		
+		"xpos"				                               "10"
+		"ypos"				                               "0"
+		"zpos"				                               "20"
+		"wide"				                               "60"
+		"tall"				                               "15"
+		"labelText"			                               "Backpack"
+		"textAlignment"		                               "center"
+		"textinsetx"		                               "30"
+		"pin_to_sibling"                                   "OnlyAllowUniqueQuality"
+		"pin_corner_to_sibling"                            "PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"                            "PIN_CENTER_LEFT"		
+
+        "defaultBgcolor_override"                          "Background2Solid"
+        "armedBgcolor_override"                            "Accent"
+		
+		"sound_depressed"	                               "UI/buttonclick.wav"
+		"sound_released"	                               "UI/buttonclickrelease.wav"
+
+		"Command"			                               "show_backpack"		
+	}
+
+	
+	"PrevPageButton"
+	{
+		"ControlName"	                                   "CExButton"
+		"fieldName"		                                   "PrevPageButton"
+		"visible"		                                   "1"
+		"enabled"		                                   "1"
+		"font"			                                   "ClarikaMedium16"				
+		"xpos"			                                   "c-45"
+		"ypos"			                                   "r140"
+		"zpos"			                                   "1"
+		"wide"			                                   "20"
+		"tall"			                                   "20"
+		"labelText"		                                   "&A"
+		"textAlignment"	                                   "center"
+		
+        "defaultBgcolor_override"                          "Background2Solid"
+        "armedBgcolor_override"                            "Accent"
+		
+		"sound_depressed"	                               "UI/buttonclick.wav"
+		"sound_released"	                               "UI/buttonclickrelease.wav"
+		
+		"Command"		                                   "prevpage"		
+	}		
+	"CurPageLabel"
+	{
+		"ControlName"	                                   "CExLabel"
+		"fieldName"		                                   "CurPageLabel"
+		"visible"		                                   "1"
+		"enabled"		                                   "1"
+		"fgcolor_override"                                 "White"		
+		"font"			                                   "ClarikaRegular16"
+		"xpos"			                                   "cs-0.5"
+		"ypos"			                                   "r140"
+		"zpos"			                                   "1"
+		"wide"			                                   "40"
+		"tall"			                                   "20"
+		"labelText"		                                   "%backpackpage%"
+		"textAlignment"                                    "center"
+	}
+	"NextPageButton"
+	{
+		"ControlName"	                                   "CExButton"
+		"fieldName"		                                   "NextPageButton"
+		"visible"		                                   "1"
+		"enabled"		                                   "1"
+		"font"			                                   "ClarikaMedium16"				
+		"xpos"			                                   "c25"
+		"ypos"			                                   "r140"
+		"zpos"			                                   "1"
+		"wide"			                                   "20"
+		"tall"			                                   "20"
+		"labelText"		                                   "&D"
+		"textAlignment"                                    "center"
+		
+        "defaultBgcolor_override"                          "Background2Solid"
+        "armedBgcolor_override"                            "Accent"
+		
+		"sound_depressed"	                               "UI/buttonclick.wav"
+		"sound_released"	                               "UI/buttonclickrelease.wav"
+		
+		"Command"		                                   "nextpage"		
+	}	
+	
+	"NoItemsLabel"
+	{
+		"ControlName"	                                   "CExLabel"
+		"fieldName"		                                   "NoItemsLabel"
+		"visible"		                                   "0"
+		"enabled"		                                   "1"
+		"fgcolor_override"                                 "Accent"		
+		"font"			                                   "ClarikaDemi24"
+		"xpos"			                                   "cs-0.5"
+		"ypos"			                                   "c-355"
+		"zpos"			                                   "10"
+		"wide"			                                   "600"
+		"tall"			                                   "600"
+		"labelText"		                                   "YOU HAVE NO ITEMS FOR THIS LOADOUT SLOT ;("
+		"textAlignment"	                                   "center"
+	}
+	
+	"mouseoveritempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"100"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+		
+		"text_ypos"			"20"
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"15"
+		
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
+		}
+	}
+	
+
+	
+	"CaratLabel"
+	{
+		"ControlName"				                       "CExLabel"
+		"fieldName"					                       "CaratLabel"
+		"xpos"						                       "9999"
+	}	
+	"TopLine"
+	{
+		"ControlName"				                       "ImagePanel"
+		"fieldName"					                       "TopLine"
+		"xpos"						                       "9999"
+	}				
+	"BottomLine"
+	{
+		"ControlName"				                       "ImagePanel"
+		"fieldName"					                       "BottomLine"
+		"xpos"						                       "9999"
+	}				
+}

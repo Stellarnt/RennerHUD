@@ -280,77 +280,58 @@
 		"fieldName"		                                   "PrevPageButton"
 		"visible"		                                   "1"
 		"enabled"		                                   "1"
-		"font"			                                   "ClarikaDemi30"
-		"xpos"			                                   "8"
-		"ypos"			                                   "180"
-		"zpos"			                                   "5"
+		"font"			                                   "ClarikaMedium16"				
+		"xpos"			                                   "c-125"
+		"ypos"			                                   "r235"
+		"zpos"			                                   "1"
 		"wide"			                                   "20"
 		"tall"			                                   "20"
-		"labelText"		                                   "<"
+		"labelText"		                                   "&A"
 		"textAlignment"	                                   "center"
-		"pin_to_sibling"                                   "CustomBG"
-		"pin_corner_to_sibling"                            "PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"                            "PIN_CENTER_LEFT"
-		"paintbackground"                                  "0"
-
-		"defaultFgColor_override"					       "White"
-		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "White"
-
+		"armedBgcolor_override"                            "Accent"
+		
 		"sound_depressed"	                               "UI/buttonclick.wav"
 		"sound_released"	                               "UI/buttonclickrelease.wav"
-
-		"Command"		                                   "prevpage"
-	}
-
+		
+		"Command"		                                   "prevpage"		
+	}		
 	"CurPageLabel"
 	{
 		"ControlName"	                                   "CExLabel"
 		"fieldName"		                                   "CurPageLabel"
 		"visible"		                                   "1"
 		"enabled"		                                   "1"
-		"fgcolor_override"                                 "White"
-		"font"			                                   "ClarikaDemi20"
-		"xpos"			                                   "10"
-		"ypos"			                                   "0"
-		"zpos"			                                   "20"
-		"wide"			                                   "120"
+		"fgcolor_override"                                 "White"		
+		"font"			                                   "ClarikaRegular16"
+		"xpos"			                                   "c-90"
+		"ypos"			                                   "r235"
+		"zpos"			                                   "1"
+		"wide"			                                   "40"
 		"tall"			                                   "20"
 		"labelText"		                                   "%thumbnailpage%"
-		"textAlignment"                                    "center"		
-		"pin_to_sibling"                                   "FilterComboBox"
-		"pin_corner_to_sibling"                            "PIN_TOPLEFT"
-		"pin_to_sibling_corner"                            "PIN_TOPRIGHT"			
+		"textAlignment"                                    "center"
 	}
-
 	"NextPageButton"
 	{
 		"ControlName"	                                   "CExButton"
 		"fieldName"		                                   "NextPageButton"
 		"visible"		                                   "1"
 		"enabled"		                                   "1"
-		"font"			                                   "ClarikaDemi30"
-		"xpos"			                                   "8"
-		"ypos"			                                   "180"
-		"zpos"			                                   "5"
+		"font"			                                   "ClarikaMedium16"				
+		"xpos"			                                   "c-55"
+		"ypos"			                                   "r235"
+		"zpos"			                                   "1"
 		"wide"			                                   "20"
 		"tall"			                                   "20"
-		"labelText"		                                   ">"
-		"textAlignment"	                                   "center"
-		"pin_to_sibling"                                   "CustomBG"
-		"pin_corner_to_sibling"                            "PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"                            "PIN_CENTER_RIGHT"		
-		"paintbackground"                                  "0"
-
-		"defaultFgColor_override"					       "White"
-		"armedFgColor_override" 					       "Accent"
-		"depressedFgColor_override" 				       "White"
-
+		"labelText"		                                   "&D"
+		"textAlignment"                                    "center"
+		"armedBgcolor_override"                            "Accent"
+		
 		"sound_depressed"	                               "UI/buttonclick.wav"
 		"sound_released"	                               "UI/buttonclickrelease.wav"
-
-		"Command"		                                   "nextpage"
-	}
+		
+		"Command"		                                   "nextpage"		
+	}	
 
 	"WikiButton"
 	{

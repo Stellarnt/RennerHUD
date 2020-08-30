@@ -180,13 +180,13 @@
 		"enabled"					                       "1"
 		"fgcolor"					                       "White"
 		"font"						                       "ClarikaMedium14"
-		"xpos"						                       "-110"
+		"xpos"						                       "0"
 		"ypos"						                       "16"
 		"zpos"						                       "1"
 		"wide"						                       "200"
 		"tall"						                       "15"
 		"labelText"					                       "%WinningTeamLabel%" // 
-		"textAlignment"				                       "east"
+		"textAlignment"				                       "center"
 	    "pin_to_sibling"                                   "ShadedBar"
 		"pin_corner_to_sibling"                            "PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"                            "PIN_CENTER_TOP"
@@ -205,7 +205,7 @@
 		"wide"						                       "200"
 		"tall"						                       "15"
 		"labelText"					                       "%WinningTeamLabel%" // 
-		"textAlignment"				                       "east"
+		"textAlignment"				                       "center"
 	    "pin_to_sibling"                                   "WinningTeamLabel"
 	}
 
@@ -218,13 +218,13 @@
 		"enabled"					                       "1"
 		"fgcolor"					                       "White"
 		"font"						                       "ClarikaMedium14"
-		"xpos"						                       "110"
+		"xpos"						                       "0"
 		"ypos"						                       "16"
 		"zpos"						                       "1"
 		"wide"						                       "200"
 		"tall"						                       "15"
 		"labelText"					                       "%LosingTeamLabel%" // 
-		"textAlignment"				                       "west"
+		"textAlignment"				                       "center"
 	    "pin_to_sibling"                                   "ShadedBar"
 		"pin_corner_to_sibling"                            "PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"                            "PIN_CENTER_TOP"
@@ -243,7 +243,7 @@
 		"wide"						                       "200"
 		"tall"						                       "15"
 		"labelText"					                       "%LosingTeamLabel%" //
-		"textAlignment"				                       "west"
+		"textAlignment"				                       "center"
 	    "pin_to_sibling"                                   "LosingTeamLabel"
 	}
 

@@ -15,7 +15,7 @@
 		"wide"										       "2"
 		"tall"										       "2"
 	}
-
+	
     //  Ammo Box
 	"AmmoBox"
 	{

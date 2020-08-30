@@ -191,8 +191,8 @@ Scheme
 
     BaseSettings
 	{
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor	    "LightRed"
-		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor	    "Accent"
+		ReplayBrowser.CollectionTitle.FgColor				"Accent"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.FgColor						"White"				

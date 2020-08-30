@@ -4,6 +4,18 @@
 
 "Resource/HudLayout.res"
 {
+// ZPOS 2 //
+
+	"HudMenuTauntSelection"  // Taunt Menu
+	{
+		"xpos"					                           "0"
+		"ypos"					                           "0"
+		"zpos"					                           "2"
+		"wide"					                           "f0"
+		"tall"					                           "f0"
+	}
+	
+	
 // ZPOS 1 //
 
 	StatPanel                // On the bright side...
@@ -199,7 +211,7 @@
 	BuildingStatus_Spy       // Building being sapped
 	{
 		"xpos"		                                       "0"
-		"ypos"		                                       "0"
+		"ypos"		                                       "4"
 		"zpos"										       "0"
 		"wide"		                                       "f0"
 		"tall"		                                       "f0"
@@ -208,7 +220,7 @@
 	BuildingStatus_Engineer  // Buildings
 	{
 		"xpos"						                       "0"
-		"ypos"						                       "0"
+		"ypos"						                       "4"
 		"zpos"						                       "0"
 		"wide"		                                       "f0"
 		"tall"		                                       "f0"
@@ -262,11 +274,15 @@
 
 	WinPanel                 // Win Panel
 	{
+		"fieldName"				"WinPanel"	
+	    "visible"                                          "1"
+		"enabled"                                          "1"
 		"xpos"					                           "0"
 		"ypos"					                           "0"
-		"zpos"					                           "0"
+		"zpos"					                           "100"
 		"wide"					                           "f0"
 		"tall"					                           "f0"
+		"proportionaltoparent"	                           "1"		
 	}
 
 	ArenaWinPanel            // Arena Win Panel
@@ -420,14 +436,18 @@
 		"wide"					                           "f0"
 		"tall"					                           "f0"
 	}
-
-	"HudMenuTauntSelection"  // Taunt Menu
+	
+	HudSpellMenu             // Halloween Spell
 	{
 		"xpos"					                           "0"
 		"ypos"					                           "0"
 		"zpos"					                           "0"
 		"wide"					                           "f0"
 		"tall"					                           "f0"
+		
+		"TextFont"				                           "Default"
+		"ItemFont"				                           "Default"
+		"ItemFontPulsing"		                           "Default"
 	}
 	
 	HudMatchStatus           // Match Status

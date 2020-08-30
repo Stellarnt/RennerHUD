@@ -47,7 +47,7 @@
 		"font"			         				           "ClarikaMedium48"
 		"fgcolor"	            					       "AmmoInClip"
 		"xpos"		            					       "0"
-		"ypos"			        				           "8"
+		"ypos"			        				           "6"
 		"zpos"			        				           "4"
 		"wide"			         				           "150"
 		"tall"			            				       "60"
